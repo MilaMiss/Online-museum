@@ -1,0 +1,746 @@
+/******* -------------- ОБЩИЕ СВОЙСТВА (начало) -------------- *******/
+body {
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.logo {
+	width: 77px;
+	height: 37px;
+}
+.bcg-promo {
+	position: absolute;
+	top: -40px;
+	right: -80px;
+}
+/* -------------- КНОПКА CTA (начало) -------------- */
+.button {
+	display: inline-block;
+	
+	position: relative;
+	margin-right: 0;
+	padding: 13px 50px;
+	
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 200;
+	color: #FFFFFF; 
+	
+	border-radius: 20px;
+	
+	background-color: #9D7875;
+}
+
+.button:hover {
+	color: #222; 
+	background-color: #fff;
+	box-shadow: 2px 5px 10px 0px rgba(34, 34, 34, .2);
+	border: none;
+}
+
+.button:active {
+	background-color: #222222;
+	color: #fff;
+	box-shadow: none;
+}
+
+.button::before {
+	box-sizing: border-box;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	display: inline-block;
+	content: "";
+			 	}
+				 
+/* -------------- КНОПКА CTA (конец) -------------- */
+
+
+/******* -------------- ОБЩИЕ СВОЙСТВА (конец) -------------- *******/
+
+
+/******* -------------- HEADER (начало) -------------- *******/
+.header.container {
+	padding: 40px 0 0;
+	position: relative;
+	
+}
+
+.header-menu {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding-left: 0;
+	
+
+	
+}
+
+
+.header-menu-link {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 100%;
+	color: #222;
+	
+	
+	transition: all 0.25s;
+}
+
+.header-menu-link:hover {
+	color: rgba(85, 84, 82, 0.6);
+}
+
+.burger-menu,
+.search {
+	width: 24px;
+	height: 24px;
+	border: none;
+	background-color: transparent;
+}
+
+button.burger-menu {
+	background-image: url(/img/Icon=menu.svg);
+}
+button.search{
+	background-image: url(/img/search.svg);
+}
+/* .header-burger::before,
+.header-burger::after {
+	position: absolute;
+	left: 0;
+
+	width: 100%;
+	height: 2px;
+	
+	content: "";
+	background-color: black;
+} */
+
+.header-burger::before {
+	top: 0;
+}
+
+.header-burger::after {
+	bottom: 0;
+}
+
+.header-burger span {
+	position: absolute;
+	left: 0;
+	top: 9px;
+
+	width: 100%;
+	height: 2px;
+
+	background-color: black;
+}
+/******* -------------- HEADER (конец) -------------- *******/
+
+
+/******* -------------- Секция PROMO (начало) -------------- *******/
+.promo .container {
+	position: relative; 
+	padding-top: 60px;
+
+	background-image: url(/img/decor\ mini.svg);
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: 83px;
+}
+
+.promo-content h1 {
+	margin-top: -22px;
+	margin-left: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 140px;
+	font-weight: 300;
+	letter-spacing: -2.8px;
+	color: #222;
+	
+
+	z-index: 4;
+}
+
+.promo-content h4 {
+	margin-top: 175px;
+	margin-left: 22px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 100%;
+	color: #222;
+	letter-spacing: 0.8px;
+}
+
+.promo-content p {
+	margin:-8px 22px 68px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 140%;
+	color: #222;
+}
+
+
+.button-eng-lng {
+	position: absolute; 
+	top: 280px;
+	right: 23px; 
+	border: none;
+	background-color: transparent;
+	width: 31px;
+	height: 85px;
+	padding: 28px 12px 0;
+	word-wrap: break-word;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.button-eng-lng::before {
+	content: url(/img/Icon\ ENG.svg);
+	position: absolute;
+	top: 0;
+	left: calc(50% - 8px);
+	width: 16px;
+	height: 16px;
+	margin-bottom: 12px;
+
+}
+
+.button_type_promo {
+	margin-left: 38px;
+	margin-bottom:200px ;
+}
+
+.button_type_transparent {
+	color: #222;
+	background-color: transparent;
+	border: 1px solid #222;
+	padding: 8px 36px;
+	
+}
+.facebook-promo,
+.instagram-promo,
+.youtube-promo {
+	width: 24px;
+	height: 24px;
+	border: none;
+	background-color: transparent;
+	margin-left: 22px;
+	}
+
+.soc-seti {
+	margin-top: -74px;
+}
+button.facebook-promo {
+	background-image: url(/img/Facebook\ promo.svg);
+}
+button.instagram-promo{
+	background-image: url(/img/Instagram\ promo.svg);
+}
+button.youtube-promo{
+	background-image: url(/img/Icon\ youtube\ promo.svg);
+}
+
+/******* -------------- Секция PROMO (конец) -------------- *******/
+
+.section{
+	margin-bottom: 152px;
+}
+
+
+
+/******* -------------- PREMIER PROJECT (начало) -------------- *******/
+
+.PP p{
+	margin-top: -25px;
+	margin-left: 200px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 100%;
+	color: #222;
+	
+}
+
+.avtor p {
+	margin-top: 16px;
+	margin-left: 0px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 100%;
+	color: #222;
+}
+
+.about-avtor p{
+	margin-top: 8px;
+	margin-left: 0px;
+	margin-bottom: 4px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #222;
+}
+
+.about_PP_avtor{
+	max-width: 50%;
+}
+
+.data-PP p{
+	margin-top: 8px;
+	margin-left: 0px;
+	margin-bottom: 4px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 140%;
+	color: #222;
+	
+}
+
+.premier-text h5{
+	margin-top: 310px;
+	margin-left: 0px;
+	margin-bottom: 4px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 110%;
+	color: #222;
+}
+
+.about-exhibition {
+	margin-top: 32px;
+	margin-left: 0px;
+	margin-bottom: 68px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #222;
+	max-width: 83%;
+}
+
+.PPseq {
+	margin-left: 60px;
+}
+
+/******* -------------- PREMIER PROJECT (конец) -------------- *******/
+
+
+/******* -------------- Секция EVENT (начало) -------------- *******/
+.razdelitel {
+	position: relative; 
+	padding-top: 0;
+
+	background-image: url(/img/Razdelitel\ event.svg);
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: 0;
+	margin-bottom: 100px;
+}
+
+	.razdelitel h3{
+		margin-top: -10px;
+		margin-left: 0;
+		margin-bottom: 0px;
+		font-family: "Roboto", 'Tahoma', sans-serif;
+		font-size: 56px;
+		font-weight: 600;
+		line-height: 100%;
+		color: #222;
+	}
+
+
+
+.japanese-content {
+	position: relative; 
+	padding-top: 0;
+
+	background-image: url(/img/Line\ 586.svg);
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: 0;
+}
+
+.japanese-word p {
+	margin-top: 0px;
+	margin-left: 8px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 140%;
+	color: rgba(85, 84, 82, 0.6);
+}
+
+.j-data{
+	margin-top: 234px;
+	margin-bottom: 100px;
+}
+
+.japanese-data p{
+	margin-left: 8px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #222;
+}
+
+.japanese-text h6{
+	margin-top: 324px;
+	margin-left: 0;
+	margin-bottom: 24px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #555452;
+}
+
+	.about-japanese {
+		margin-top: 0;
+		margin-left: 0px;
+		margin-bottom: 68px;
+		font-family: "Open Sans", sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 140%;
+		color: #222;
+
+	}
+
+
+	.about-cinema{
+		max-width: 40%;
+		margin-top: 80px;
+		margin-bottom: -12px;
+		font-family: "Open Sans", sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 140%;
+		color: #555452;
+
+	}
+
+.d-lives {
+	margin-top: 12px;
+	
+}
+
+.data-lives {
+	
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #222;
+}
+
+.lives-text h6 {
+	text-align: right;
+	margin-top: 160px;
+	margin-right: 16px;
+	margin-bottom: 24px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #555452;
+}
+
+.about-live {
+	text-align: right;
+	margin-right: 16px;
+	margin-bottom: 68px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #222;
+	max-width: 70%;
+
+}
+
+.img-cinema h5{
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 100%;
+	color: #222;
+}
+
+.live-btn {
+	margin-top: 68px;
+}
+
+.botton_type_pravo {
+	margin-right: 16px;
+}
+
+/******* -------------- Секция EVENT (конец) -------------- *******/
+
+
+/******* -------------- Секция SABSCRIBE (начало) -------------- *******/
+.input_class::placeholder {
+	border: none;
+	border: bottom;
+	color:#222;
+	font-size: 24px;
+	color: rgba(85, 84, 82, 0.6);
+	font-size: 24px;
+	line-height: 100%;
+	letter-spacing: 1.92px;
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	
+}
+
+.label-accent {
+color: rgba(85, 84, 82, 0.6);
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 1.92px;
+font-family: "Roboto", 'Tahoma', sans-serif;
+}
+
+label {
+	color:#222;
+	font-size: 24px;
+	line-height: 100%;
+	letter-spacing: 1.92px;	
+	font-family: "Roboto", 'Tahoma', sans-serif;
+	
+}
+
+input {
+	width: 516px;
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	color: rgba(85, 84, 82, 0.6);
+	font-weight: 400;
+	line-height: 140%;
+	margin-bottom: 8px;
+	border-top: #222;
+	border-left: #222;
+	border-right: #222;
+	margin-left: 46px;
+	margin-right: 30px;
+}
+
+.button_type_sabscribe {
+	color: #fff;
+	background-color: #222;
+	padding: 14px 50px;
+
+}
+
+.button_type_sabscribe:hover {
+	color: #222; 
+	background-color: #fff;
+	box-shadow: 2px 5px 10px 0px rgba(34, 34, 34, .2);
+}
+
+.button_type_sabscribe:active {
+	color: #222;
+	background-color: transparent;
+	border: 1px solid #222;
+	box-shadow: none;
+}
+
+.section-sub {
+	margin-bottom: 68px;
+}
+	
+/******* -------------- Секция SABSCRIBE (конец) -------------- *******/
+
+
+/******* -------------- Секция FOOTER (начало) -------------- *******/
+footer {
+	background-color: #222;
+}
+
+.footer-block {
+	color: white;
+	padding: 40px 0px;
+  }
+
+  .row.info {
+	margin-left: 190px;
+	margin-bottom: 52px;
+  }
+  
+  .info {
+	margin-left: 190px;
+	margin-bottom: 52px;
+  }
+  .col-6.main {
+	padding-left: 22px !important;
+  }
+  
+  .top-letters {
+	color: #e1d3ce;
+	text-align: start;
+	height: 60px;
+	display: contents;
+  }
+  .inner-line {
+	display: flex;
+	height: 77px;
+	margin-bottom: 5px;
+  }
+  .up {
+	margin-left: 38px;
+	margin-top: 20px;
+	display: flex;
+	font-size: 20px;
+	font-weight: 400;
+  }
+  .little-icon {
+	height: 24px;
+	width: 24px;
+	margin-right: 16px;
+  }
+  
+  .col-6.main:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0%;
+	border-left: 2px solid #fff;
+	transform: translate(-50%);
+	height: 244px;
+  }
+  .us-rotate {
+	transform: rotate(-90deg);
+	text-align: initial;
+	position: absolute;
+	bottom: -12px;
+	left: -16px;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 10px !important;
+  }
+  
+  .col-3 {
+	position: relative;
+  }
+  .rotated {
+	transform: rotate(-90deg);
+	text-align: initial;
+	position: absolute;
+	bottom: 55px;
+	right: -36px;
+	font-size: 24px;
+	margin-bottom: 10px !important;
+  }
+  .additional {
+	padding-left: 22px !important;
+	padding-top: 44px;
+  }
+  
+  .footer-menu {
+	list-style-type: none;
+	margin-left: -32px;
+  }
+
+  .additional:before {
+	content: "";
+	position: absolute;
+	top: -72px;
+	bottom: 0;
+	left: 0%;
+	border-left: 2px solid #fff;
+	transform: translate(-50%);
+	height: 344px;
+  }
+  .small-letters {
+	text-align: start;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+  }
+  
+  .last-line {
+	padding-top: 26px;
+	font-size: 20px;
+  }
+  .col-4.left {
+	text-align: start;
+	padding-left: 0 !important;
+  }
+  .col-4.right {
+	text-align: end;
+	padding-right: 0 !important;
+  }
+  
+  .logo {
+	text-align: start;
+  }
+  img.logo {
+	width: 77px;
+	height: 32px;
+  }
+  
+  .arrow {
+	text-align: end;
+  }
+  img.arrow {
+	height: 44px;
+	width: 44px;
+  }
+  
+  div.top-letters {
+	color: #e1d3ce;
+	text-align: start;
+	height: 60px;
+	font-size: 60px;
+	font-weight: 700;
+	display: contents;
+  }
+  
+  .last-line {
+	border-top: 1px solid white;
+  }
+
+  .top-letters-museum{
+	font-weight: 700;
+	font-size: 60px;
+	text-align: end;
+	margin-right: -196px;
+	color: #e1d3ce;
+  } 
+
+  .col-4.center {
+	text-align: center;
+	
+  }
+  
+  A { 
+	  color: #FFFFFF;
+  }
+
+  A:hover {
+color: #E1D3CE;
+  } 
+
+/******* -------------- Секция FOOTER (конец) -------------- *******/
+
+/******* -------------- МЕДИА-ЗАПРОСЫ (начало) -------------- *******/
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1290px;
+	}
+}
