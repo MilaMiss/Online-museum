@@ -13,6 +13,7 @@ a:hover {
 	height: 37px;
 }
 .bcg-promo {
+
 	position: absolute;
 	top: -40px;
 	right: -80px;
@@ -77,9 +78,6 @@ a:hover {
 	list-style-type: none;
 	margin-bottom: 0;
 	padding-left: 0;
-	
-
-	
 }
 
 
@@ -88,8 +86,6 @@ a:hover {
 	font-weight: 200;
 	line-height: 100%;
 	color: #222;
-	
-	
 	transition: all 0.25s;
 }
 
@@ -149,7 +145,7 @@ button.search{
 	position: relative; 
 	padding-top: 60px;
 
-	background-image: url(/img/decor\ mini.svg);
+	background-image: url(/img/decor_mini.svg);
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: 83px;
