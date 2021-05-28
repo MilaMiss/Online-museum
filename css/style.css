@@ -102,10 +102,10 @@ a:hover {
 }
 
 button.burger-menu {
-	background-image: url(/img/Icon=menu.svg);
+	background-image: url(../img/Icon=menu.svg);
 }
 button.search{
-	background-image: url(/img/search.svg);
+	background-image: url(../img/search.svg);
 }
 /* .header-burger::before,
 .header-burger::after {
@@ -145,7 +145,7 @@ button.search{
 	position: relative; 
 	padding-top: 60px;
 
-	background-image: url(/img/decor_mini.svg);
+	background-image: url(../img/decor_mini.svg);
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: 83px;
@@ -200,7 +200,7 @@ button.search{
 }
 
 .button-eng-lng::before {
-	content: url(/img/Icon\ ENG.svg);
+	content: url(../img/Icon_ENG.svg);
 	position: absolute;
 	top: 0;
 	left: calc(50% - 8px);
@@ -236,13 +236,13 @@ button.search{
 	margin-top: -74px;
 }
 button.facebook-promo {
-	background-image: url(/img/Facebook_promo.svg);
+	background-image: url(../img/Facebook_promo.svg);
 }
 button.instagram-promo{
-	background-image: url(/img/Instagram_promo.svg);
+	background-image: url(../img/Instagram_promo.svg);
 }
 button.youtube-promo{
-	background-image: url(/img/Icon_youtube_promo.svg);
+	background-image: url(../img/Icon_youtube_promo.svg);
 }
 
 /******* -------------- Секция PROMO (конец) -------------- *******/
@@ -338,7 +338,7 @@ button.youtube-promo{
 	position: relative; 
 	padding-top: 0;
 
-	background-image: url(/img/Razdelitel\ event.svg);
+	background-image: url(../img/Razdelitel\ event.svg);
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: 0;
@@ -362,7 +362,7 @@ button.youtube-promo{
 	position: relative; 
 	padding-top: 0;
 
-	background-image: url(/img/Line\ 586.svg);
+	background-image: url(../img/Line\ 586.svg);
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: 0;
